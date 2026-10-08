@@ -4,8 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>TecnoShop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <link rel="stylesheet" href="styles.css">
     <script src="functions.js"></script>
+    
 </head>
 
 <body>
@@ -17,7 +20,7 @@
             <a href="#bienvenido">Bienvenido</a> |
             <a href="#catalogo">Catalogo</a> |
             <a href="#id">Acerca de</a> |
-            <a href="">Contacto</a> |
+            <a href="contacto.html">Contacto</a> |
         </nav>
     </header>
 
@@ -127,12 +130,40 @@
             </ol>
         </section>
 
+        <section>
+            <form id="formulario" action="contacto.php">
+
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">Nombre:</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">E-mail:</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">Reseña:</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+
+                
+
+
+            </form>
+        </section>
+
     </main>
 
     <footer>
         <p>© 2026 TecnoShop</p>
     </footer>
 
-</body>
+    <script>
 
+
+    </script>
+
+</body>
 </html>

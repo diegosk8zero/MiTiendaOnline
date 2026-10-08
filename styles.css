@@ -44,6 +44,7 @@ main {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
+    margin-bottom: 100px;
 }
 
 /* SECCIONES */
@@ -110,4 +111,8 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
+    position: inherit;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
